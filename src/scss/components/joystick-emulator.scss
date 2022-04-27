@@ -1,0 +1,42 @@
+.joystick-emulator {
+    display: flex;
+
+    position: fixed;
+    left: 0;   
+    right: 0;
+    bottom: 50px;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    pointer-events: none;
+}
+
+.joystick-emulator__container {
+    display: flex;
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightgrey;
+}
+
+.joystick-emulator__stick {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    background-color: white;
+
+    cursor: grab;
+
+    pointer-events: all;
+}

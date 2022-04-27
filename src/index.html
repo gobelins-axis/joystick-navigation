@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joystick navigation</title>
+</head>
+<body>
+
+    <div class="js-page page">
+
+        <button data-button class="button page__button-home">
+            Home
+        </button>
+
+        <nav class="page__navigation">
+
+            <button data-button class="button page__button-navigation">Button nav 1</button>
+
+            <button data-button class="button page__button-navigation">Button nav 2</button>
+
+            <button data-button class="button page__button-navigation">Button nav 3</button>
+
+        </nav>
+
+        <button data-button class="button page__button-menu">
+            Menu
+        </button>
+
+        <button data-button class="button page__button-call-to-action">
+            Call to action
+        </button>
+
+        <button data-button class="button page__button-cookies">
+            Accept cookies
+        </button>
+
+        <button class="button page__button-random js-button-random">
+            Random
+        </button>
+
+    </div>
+
+    <div class="joystick-emulator">
+
+        <div class="joystick-emulator__container">
+
+            <div class="joystick-emulator__stick js-joystick-emulator-stick"></div>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="./index.js"></script>
+    
+</body>
+</html>
